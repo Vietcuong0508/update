@@ -1,0 +1,52 @@
+.item {
+    float: left;
+    width: 30%;
+    margin: 10px;
+    border-radius: 5px;
+}
+.item img {
+    width: 50%;
+}
+form[name="image-form"] label {
+    display: inline-block;
+    width: 100px;
+}
+.form-group {
+    padding: 3px;
+    margin: 3px;
+}
+input[name="image-content"] {
+    width: 157px;
+    height:100px;
+}
+.a{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+}
+
+.a:hover {background-color: #3e8e41}
+
+.a:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+.title {
+    color: red;
+    font-size: 30px;
+}
+.content {
+    font-size: 20px;
+}
+.category {
+    font-size: 15px;
+}
