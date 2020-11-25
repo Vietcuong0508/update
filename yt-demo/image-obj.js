@@ -24,10 +24,10 @@ btnReset.onclick = function () {
     var txtImageTitle = document.forms['image-form']['image-title'];
     var txtImageContent = document.forms['image-form']['image-content'];
     var txtImageCategory = document.forms['image-form']['image-category'];
-    txtImageTitle.value = null;
-    txtImageContent.value = null;
-    txtThumbnail.value = null;
-    txtImageCategory.value = null;
+    txtImageTitle.value = '';
+    txtImageContent.value = '';
+    txtThumbnail.value = '';
+    txtImageCategory.value = '';
 }
 
 var btnDisplayImage = document.forms['image-form']['btn-display'];
